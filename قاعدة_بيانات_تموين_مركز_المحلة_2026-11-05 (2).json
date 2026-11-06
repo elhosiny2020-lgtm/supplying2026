@@ -1,0 +1,265 @@
+{
+  "header": {
+    "governorate": "محافظة الغربية",
+    "directorate": "مديرية التموين والتجارة الداخلية بالغربية",
+    "administration": "إدارة تموين مركز المحلة الكبرى",
+    "logoUrl": ""
+  },
+  "columnHeaders": {
+    "serial": "م",
+    "ownerName": "صاحب المخبز",
+    "villageUnit": "القرية والوحدة",
+    "machineNo": "رقم الماكينة",
+    "responsibleManager": "المدير المسئول",
+    "activityStatus": "نشاط المخبز",
+    "breadType": "نوع الخبز",
+    "productionLine": "خط الإنتاج",
+    "fuelType": "نوع الوقود",
+    "insuranceValue": "القيمة التأمينية (ج.م)",
+    "insuranceQuota": "الحصة التأمينية",
+    "actualQuota": "الحصة الفعلية",
+    "quotaLoaves": "أرغفة الحصة",
+    "villagePopulation": "سكان القرية",
+    "beneficiaries2023": "مستفيدين 2023",
+    "beneficiaries2024": "مستفيدين 2024",
+    "beneficiaries2025": "مستفيدين 2025",
+    "perCapitaShare": "متوسط الفرد للمخبز",
+    "perCapita2023": "متوسط 2023",
+    "perCapita2024": "متوسط 2024",
+    "perCapita2025": "متوسط 2025",
+    "avgDifference": "فرق المتوسطات",
+    "phone": "رقم التليفون",
+    "nationalId": "الرقم القومي",
+    "taxCardNo": "البطاقة الضريبية",
+    "taxCardExpiry": "انتهاء الضريبية",
+    "commRegisterNo": "السجل التجاري",
+    "commRegisterExpiry": "انتهاء السجل",
+    "licenseNo": "رقم الترخيص",
+    "licenseExpiry": "انتهاء الترخيص",
+    "leaseContractNo": "عقد الإيجار",
+    "leaseExpiry": "انتهاء الإيجار",
+    "actions": "الإجراءات"
+  },
+  "dropdowns": {
+    "activityTypes": [
+      "مخبز نشط",
+      "مخبز غير نشط",
+      "مخبز مغلق"
+    ],
+    "breadTypes": [
+      "مجر",
+      "ماو"
+    ],
+    "productionLineTypes": [
+      "آلي",
+      "نصف آلي"
+    ],
+    "fuelTypes": [
+      "سولار",
+      "غاز"
+    ]
+  },
+  "villages": [
+    {
+      "id": "v1",
+      "name": "بشبيش",
+      "units": [
+        "الوحدة المحلية ببشبيش",
+        "وحدة ليلانة",
+        "وحدة محلة البرج"
+      ]
+    },
+    {
+      "id": "v2",
+      "name": "محلة حسن",
+      "units": [
+        "الوحدة المحلية بمحلة حسن",
+        "وحدة كفر الحما",
+        "وحدة ميت السراج"
+      ]
+    },
+    {
+      "id": "v3",
+      "name": "صفط تراب",
+      "units": [
+        "الوحدة المحلية بصفط تراب",
+        "وحدة عياش",
+        "وحدة شبرا ملكان"
+      ]
+    },
+    {
+      "id": "v4",
+      "name": "دمرو",
+      "units": [
+        "الوحدة المحلية بدمرو",
+        "وحدة سنبارة",
+        "وحدة كفر دمرو"
+      ]
+    },
+    {
+      "id": "v5",
+      "name": "العامرية",
+      "units": [
+        "الوحدة المحلية بالعامرية",
+        "وحدة السجاعية",
+        "وحدة الدواخلية"
+      ]
+    },
+    {
+      "id": "v6",
+      "name": "شوني",
+      "units": [
+        "الوحدة المحلية بشوني",
+        "وحدة القيراطية"
+      ]
+    },
+    {
+      "id": "v7",
+      "name": "نمرة البصل",
+      "units": [
+        "الوحدة المحلية بنمرة البصل",
+        "وحدة كفر دمتنو"
+      ]
+    },
+    {
+      "id": "v8",
+      "name": "بلقينا",
+      "units": [
+        "الوحدة المحلية ببلقينا",
+        "وحدة الهياتم"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "u1",
+      "fullName": "م. أحمد الحسيني",
+      "username": "admin",
+      "passwordHash": "admin",
+      "role": "مدير إدارة",
+      "createdAt": "2026-01-01"
+    }
+  ],
+  "bakeries": [
+    {
+      "id": "b1",
+      "serial": 1,
+      "ownerName": "محمد أحمد إبراهيم السيد",
+      "village": "بشبيش",
+      "unit": "الوحدة المحلية ببشبيش",
+      "machineNo": "POS-88210",
+      "insuranceValue": 45000,
+      "quotaLoaves": 14250,
+      "insuranceQuota": 20,
+      "actualQuota": 19.5,
+      "villagePopulation": 38500,
+      "beneficiaries2023": 31200,
+      "beneficiaries2024": 32500,
+      "beneficiaries2025": 33100,
+      "perCapitaShare": 3.8,
+      "perCapita2023": 3.5,
+      "perCapita2024": 3.7,
+      "perCapita2025": 3.9,
+      "avgDifference": "+0.4 رغيف",
+      "activityStatus": "مخبز نشط",
+      "breadType": "ماو",
+      "productionLine": "آلي",
+      "fuelType": "غاز",
+      "phone": "01004414038",
+      "nationalId": "28911051601234",
+      "taxCardNo": "445/892/1",
+      "taxCardIssue": "2021-03-10",
+      "taxCardExpiry": "2027-03-10",
+      "responsibleManager": "محمود أحمد إبراهيم",
+      "commRegisterNo": "67822",
+      "commRegisterIssue": "2021-05-12",
+      "commRegisterExpiry": "2026-11-12",
+      "licenseNo": "TR-1024",
+      "licenseIssue": "2019-06-20",
+      "licenseExpiry": "2029-06-20",
+      "leaseContractNo": "E-9901",
+      "leaseIssue": "2022-01-01",
+      "leaseExpiry": "2027-01-01"
+    },
+    {
+      "id": "b2",
+      "serial": 2,
+      "ownerName": "إبراهيم علي عبد العال",
+      "village": "محلة حسن",
+      "unit": "وحدة كفر الحما",
+      "machineNo": "POS-77411",
+      "insuranceValue": 38000,
+      "quotaLoaves": 11400,
+      "insuranceQuota": 16,
+      "actualQuota": 16,
+      "villagePopulation": 22000,
+      "beneficiaries2023": 18500,
+      "beneficiaries2024": 19200,
+      "beneficiaries2025": 19800,
+      "perCapitaShare": 3.2,
+      "perCapita2023": 3.1,
+      "perCapita2024": 3.2,
+      "perCapita2025": 3.3,
+      "avgDifference": "+0.2 رغيف",
+      "activityStatus": "مخبز نشط",
+      "breadType": "مجر",
+      "productionLine": "نصف آلي",
+      "fuelType": "سولار",
+      "phone": "01122334455",
+      "nationalId": "29204081604567",
+      "taxCardNo": "992/314/0",
+      "taxCardIssue": "2020-08-15",
+      "taxCardExpiry": "2026-11-18",
+      "responsibleManager": "إبراهيم علي عبد العال",
+      "commRegisterNo": "88319",
+      "commRegisterIssue": "2020-09-01",
+      "commRegisterExpiry": "2028-09-01",
+      "licenseNo": "TR-4491",
+      "licenseIssue": "2018-04-10",
+      "licenseExpiry": "2026-11-10",
+      "leaseContractNo": "LE-552",
+      "leaseIssue": "2021-11-01",
+      "leaseExpiry": "2026-11-04"
+    },
+    {
+      "id": "b3",
+      "serial": 3,
+      "ownerName": "عصام كمال مصطفى الشناوي",
+      "village": "صفط تراب",
+      "unit": "الوحدة المحلية بصفط تراب",
+      "machineNo": "POS-55102",
+      "insuranceValue": 50000,
+      "quotaLoaves": 17100,
+      "insuranceQuota": 24,
+      "actualQuota": 24,
+      "villagePopulation": 45000,
+      "beneficiaries2023": 38000,
+      "beneficiaries2024": 39500,
+      "beneficiaries2025": 41000,
+      "perCapitaShare": 4.1,
+      "perCapita2023": 3.8,
+      "perCapita2024": 4,
+      "perCapita2025": 4.2,
+      "avgDifference": "+0.4 رغيف",
+      "activityStatus": "مخبز نشط",
+      "breadType": "ماو",
+      "productionLine": "آلي",
+      "fuelType": "غاز",
+      "phone": "01234567890",
+      "nationalId": "28509121609988",
+      "taxCardNo": "112/553/8",
+      "taxCardIssue": "2022-04-12",
+      "taxCardExpiry": "2028-04-12",
+      "responsibleManager": "سامح عصام كمال",
+      "commRegisterNo": "99120",
+      "commRegisterIssue": "2022-05-10",
+      "commRegisterExpiry": "2027-05-10",
+      "licenseNo": "TR-7712",
+      "licenseIssue": "2020-01-15",
+      "licenseExpiry": "2030-01-15",
+      "leaseContractNo": "LC-881",
+      "leaseIssue": "2023-01-01",
+      "leaseExpiry": "2028-01-01"
+    }
+  ]
+}
